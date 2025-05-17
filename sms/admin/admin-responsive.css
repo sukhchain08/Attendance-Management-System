@@ -1,0 +1,105 @@
+@media (max-width: 768px) {
+    *{
+        overflow: scroll;
+    }
+    .side-bar{
+        display: none;
+    }
+    .dashboard-middle-area{
+        width: 100%;
+        height: auto;
+        overflow: scroll;
+    }
+    .admin-name{
+        color: #3A59D1;
+        font-weight: 800 !important;
+    }
+    .middle-area-logout-div a{
+        position: relative;
+        top: -3px;
+        left: -10px;
+    }
+    .add-subject{
+        display: block !important;
+    }
+    .pagination{
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 800 !important;
+    }
+    .pagination p{
+        font-size: 0.9em;
+    }
+    .pagination a{
+        font-size: 0.9em;
+    }
+    .admin-divs-container .linkss{
+        overflow: hidden !important;
+    }
+    .edit-detail-link{
+        font-size: 0.9em;
+        display: block;
+        overflow: hidden;
+    }
+    .dashboard-middle-area .middle-area-logout-div{
+        display: block;
+    }
+    .simple-edit-detail-link{
+        display: none !important;
+    }
+    .responsive-edit-detail-link{
+        display: block !important;
+        font-size: 1.1em;
+    }
+    .search-div{
+        left: -10px;
+        margin-top: 15px;
+    }
+    .search-div input{
+        font-size: 1em;
+        width: 180px !important;
+        height: 37px !important;
+        position: relative;
+        top: 3px;
+    }   
+    .search-div button{
+        margin-top: 7px;
+    }
+    table{
+        font-size: 0.8em !important;
+    }
+    .action-icons{
+        font-size: 1.3em;
+    }
+    .student-table .edit-input, .add-student-value, .teacher-table .edit-input{
+        margin-left: 0px;
+    }
+    .respo-input{
+        margin-top: 10px;
+    }
+    .footer-col{
+        display: block !important;
+        width: 100%;
+        padding: 0px 10px;
+        background-color: #24262b;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 10px;
+        margin-top: 50px;
+    }
+    .footer-col h4{
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgb(255, 255, 255, 0.2);
+        margin: 0px 10px 10px 0px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+    }
+}

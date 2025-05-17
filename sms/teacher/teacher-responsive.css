@@ -1,0 +1,148 @@
+@media (max-width: 768px) {
+    *{
+        overflow: scroll;
+    }
+    .side-bar{
+        display: none;
+    }
+    .dashboard-middle-area{
+        width: 100%;
+        height: auto;
+        overflow: scroll;
+        left: 0;
+    }
+    .teacher-name{
+        color: #3A59D1;
+        font-weight: 800 !important;
+        font-size: 1.5em !important;
+    }
+    .dashboard-middle-area .middle-area-logout-div {
+        display: block;
+    }
+    .middle-area-logout-div a{
+        position: relative;
+        top: -2px;
+        left: -10px;
+    }
+    .pagination{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px !important;
+        font-weight: 800 !important;
+    }
+    .pagination p{
+        font-size: 0.9em;
+    }
+    .pagination a{
+        font-size: 0.9em;
+    }
+    .linkss{
+        width: 300px;
+        height: 100px;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .teacher-container{
+        width: 300px;
+        height: 250px;
+        margin-top: 0px;
+    }
+    .neachert-container .top{
+        background-color: #1162db;
+    }
+    .teacher-container .bottom{
+        overflow: hidden;
+    }
+    .teacher-container .top p{
+        font-size: 1em !important;
+        font-weight: 700 !important;
+    }
+    .teacher-container .bottom p{
+        font-size: .8em !important;
+        font-weight: 700 !important;
+    }
+    .respo-dashboard-link{
+        display: block !important;
+        overflow: hidden !important;
+    }
+    .respo-input{
+        margin-top: 10px;
+    }
+    .edit-detail-link{
+        font-size: 1.1em;
+        display: block;
+        overflow: hidden;
+        text-decoration: none;
+    }
+    .edit-detail-link a{
+        position: relative;
+        top: -2px;
+        left: -7px;
+    }
+    table{
+        font-size: 0.7em !important;
+    }
+    .student-profile .edit-input{
+        margin-left: 0px;
+    }
+    .update-heading{
+        width: 100%;
+        font-size: 1.6em;
+        font-weight: 700;
+        letter-spacing: .6px;
+    }
+    .student-table .edit-input{
+        margin-left: 0px;
+    }
+    table th{
+        font-size: 1.4em !important;
+    }
+    .update-password img{
+        display: none;
+    }
+    .update-password-heading{
+        font-size: 1.5em;
+        text-align: center !important;
+        margin-left: 1px;
+        right: 0;
+        color:  #328E6E;
+        font-weight: 800;
+    }
+    .update-password .form{
+        width: 2400px;
+        height: 370px;
+        left: -20px;
+    }
+    .update-password p{
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+    .update-password i{
+        overflow: hidden !important;
+    }
+    .footer-col{
+        display: block !important;
+        width: 100%;
+        padding: 0px 10px;
+        background-color: #24262b;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 10px;
+        margin-top: 50px;
+    }
+    .footer-col h4{
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgb(255, 255, 255, 0.2);
+        margin: 0px 10px 10px 0px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+    }
+}

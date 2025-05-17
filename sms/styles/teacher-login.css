@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+nav .logo-heading{
+    font-size: 28px;
+}
+nav .admin-heading{
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+nav .admin-heading-div, nav .login-div, nav .admin-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .logint-div,  nav .admin-div{
+    padding-right: 50px;
+    justify-content: end;
+}
+nav .login-btn,  nav .signup-btn{
+    padding: 7px 20px;
+    background: transparent;
+    border: 1px solid;
+    font-size: 20px;
+    color: #0d6ffd;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: .2s;
+}
+nav .login-btn:hover, nav .signup-btn:hover{
+    background-color: #0d6dfd1c;
+}
+header{
+    height: calc(100vh  - 108px);
+    background:linear-gradient(-45deg, #d3ebc7 57%, transparent 50%);
+}
+header h1{
+    font-size: 85px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    color: #106e6b;
+    position: relative;
+    left: -90px;
+}
+header .form-conatiner, header .login-form-conatiner{
+    position: relative;   
+    left: -85px;
+    width: 465px;
+    border: 1px solid #198754;
+    border-radius: 5px;
+    background-color: #fff;
+}
+form p{
+    font-size: 35px;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+form .inputs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+form .same, form .login_same{
+    padding: 5px 2px 5px 10px;
+    width: 200px;
+    font-size: 17px;
+    margin-right: 20px;
+    margin-bottom: 22px;
+    letter-spacing: .2px;
+    background: transparent;
+    border: 1px solid #c7bebe;
+    box-shadow: 0 0 4px #106e6b;
+    border-radius: 8px;
+    outline: none;
+    transition: .2s;
+}
+form .same:focus, form .login_same:focus{
+    border: 1px solid #094745;
+    box-shadow: 0 0 0px;
+}
+form .form-submit, form .login-form-submit{
+    width: 100%;
+    background-color: #106e6b;
+    color: #fff;
+    box-shadow: 0 0 0px;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 7px 0px;
+    transition: .1s;
+}
+form .form-submit:focus{
+    border: 0;
+}
+form .form-submit:hover, form .login-form-submit:hover{
+    background-color: #0b4745;
+}
+form .login-form-submit{
+    margin-top: 15px;
+}
+form .admin-link, form .login-link, form .signup-login-link{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+form .login-link{
+    margin-left: 75px;
+}
+form .signup-login-link{
+    margin-left: 95px;
+}
+form .login_same{
+    width: 100%;
+    margin-bottom: 28px;
+}
+header .login-form-conatiner{
+    width: 390px !important;
+    margin-top: 40px;
+}
+form .forget-password{
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
