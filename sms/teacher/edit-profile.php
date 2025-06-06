@@ -33,13 +33,22 @@
             $_SESSION['number'] = $number; // Update session only after successful database update
             echo "<script>alert('Update Success')</script>";
             echo "<script>window.open('profile.php', '_self')</script>";
-            exit();
         } 
         else 
         {
             echo "<script>alert('Update Failed')</script>";
             echo "<script>window.open('profile.php', '_self')</script>";
             exit();
+        }
+
+        $update_number_from_attendance = mysqli_query($conn, "UPDATE `attendance` SET `teacher_number`='$number' WHERE teacher_number = '$teacher_number'");
+        if($update_number_from_attendance)
+        {
+            echo "<script>alert('Number Changed')</script>";
+        }
+        else
+        {
+            echo "Error: " . mysqli_error($conn);
         }
     }
 ?>
