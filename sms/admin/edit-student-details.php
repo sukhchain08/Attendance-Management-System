@@ -49,13 +49,22 @@
             unset($_SESSION['name'], $_SESSION['number'], $_SESSION['email'], $_SESSION['father_name'], $_SESSION['dob'], $_SESSION['address']); // Clear session data after successful update
             echo "<script>alert('Update Success')</script>";
             echo "<script>window.open('manage-students.php', '_self')</script>";
-            exit();
         } 
         else 
         {
             echo "<script>alert('Update Failed')</script>";
             echo "<script>window.open('manage-students.php', '_self')</script>";
             exit();
+        }
+
+        $update_number_from_attendance = mysqli_query($conn, "UPDATE `attendance` SET `student_number`='$number' WHERE student_number = '{$result['student_number']}'");
+        if($update_number_from_attendance)
+        {
+            echo "<script>alert('Number Changed')</script>";
+        }
+        else
+        {
+            echo "Error: " . mysqli_error($conn);
         }
     } 
 
