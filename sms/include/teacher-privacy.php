@@ -7,6 +7,7 @@
 
     if(!isset($_SESSION['teacher_login_success']) || $_SESSION['teacher_login_success'] !== true)
     {
+        echo "<script>alert('You cannot access this page without login')</script>";
         echo "<script>window.open('login.php', '_self')</script>";
         exit();
     }
