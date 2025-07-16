@@ -124,7 +124,7 @@ CREATE TABLE `student_info` (
 --
 
 INSERT INTO `student_info` (`sr_no`, `student_name`, `student_father_name`, `student_number`, `student_email`, `student_password`, `student_course`, `student_semester`, `student_dob`, `student_gender`, `student_address`, `student_alt_number`) VALUES
-(1, 'Sukhchain Singh', 'Sukhjinder Singh', 9914905575, 'karirsukhchain122@gmail.com', '232020', 'BCA', 0, '2005-10-08', 'Male', 'Thatta Nawan', 9914905575);
+(1, 'Sukhchain Singh', 'Sukhjinder Singh', 9914905575, 'karirsukhchain122@gmail.com', '232020', 'BCA', 0, '2005-10-08', 'Male', 'Kapurthala', 9914905575);
 
 -- --------------------------------------------------------
 
@@ -166,7 +166,7 @@ CREATE TABLE `teacher_info` (
 --
 
 INSERT INTO `teacher_info` (`sr_no`, `teacher_name`, `teacher_number`, `teacher_email`, `teacher_password`, `teacher_course`, `teacher_course_1`, `teacher_course_2`, `teacher_course_3`, `teacher_gender`, `teacher_dob`, `teacher_address`) VALUES
-(1, 'Sukhchain Singh ', 9914905575, 'karirsukhchain122@gmail.com', '232020', 'BCA', '', '', '', 'Male', '2005-10-08', 'VPO Thatta Nawan, Distt. Kapurthala');
+(1, 'Sukhchain Singh ', 9914905575, 'karirsukhchain122@gmail.com', '232020', 'BCA', '', '', '', 'Male', '2005-10-08', 'Kapurthala');
 
 -- --------------------------------------------------------
 
