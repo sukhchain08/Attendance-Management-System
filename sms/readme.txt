@@ -6,7 +6,7 @@
 4.Open PHPMyAdmin (http://localhost/phpmyadmin)
 5. Create a database with the name 'sms'
 6. Import sms.sql file(given inside the zip package in SQL file folder)
-7. Run the script http://localhost/studentrecordms
+7. Run the script http://localhost/sms
 
 ---- Login Info ----
 Admin uid : 991155
